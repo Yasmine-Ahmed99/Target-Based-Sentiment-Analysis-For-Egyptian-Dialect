@@ -614,14 +614,6 @@ def predict():
     
     result2=targets
 
-# shrief
-    # def rslt2():
-    #     for i in targets:
-    #         print(i)
-# shrief
-    #df['text']=lis 
-    #display(df)
-
     print(result)
     print("=========================================")
     df_submit = pd.DataFrame(result,columns=['tx'])
